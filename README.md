@@ -47,9 +47,11 @@ Total count of deduplicated leftover sequences: 6833758 (97.08% of total)
 .......
 
 ### Пункт c
-
+Сделано в Google Collab 
 
 ### Пункт d
+
+
 
 ### Пункт e
 
