@@ -64,10 +64,29 @@ Total count of deduplicated leftover sequences: 6833758 (97.08% of total)
 
 Ниже разберем M-bias plot.
 
-№1 
+График смещения метилирования показывает долю метилирования в каждой возможной позиции в считывании. Данный график полезен для контроля качества. При хороших показателях уровень метилирования должен быть почти постоянным. В обратном случае необходимо перепроверить данные.
 
-![alt text](M-bias Plot/222_Read1.png)
 
+#### Ссылки на источники:
+https://sequencing.qcfail.com/articles/library-end-repair-reaction-introduces-methylation-biases-in-paired-end-pe-bisulfite-seq-applications/
+
+https://www.biostars.org/p/259801/
+
+https://www.bioinformatics.babraham.ac.uk/projects/bismark/Bismark_User_Guide.pdf
+
+#### №1 SRR5836473 - 8 Cell
+На данном образце можно отметить, что в Read 1 уровень метилирования практически постоянный, следовательно данные в норме.
+
+Однако, Read 2 имеет некоторые аномалии. 
+
+![alt text](M-bias_Plot/473_Read1.png)
+![alt text](M-bias_Plot/473_Read2.png)
+
+#### №2 SRR3824222 - Epiblast
+
+![alt text](M-bias_Plot/222_Read1.png)
+
+![alt text](M-bias_Plot/222_Read2.png)
 
 ### Пункт e
 ```python
@@ -83,3 +102,5 @@ plt.show()
 ```
 
 ### Пункт f
+
+
