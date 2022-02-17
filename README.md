@@ -91,11 +91,43 @@ https://www.bioinformatics.babraham.ac.uk/projects/bismark/Bismark_User_Guide.pd
 
 ![alt text](M-bias_Plot/222_Read2.png)
 
-#### №2 SRR3824222 - ICM
+#### №3 SRR3824222 - ICM
 ## !!!
 
 
 ### Пункт e
+
+#### №1 SRR5836473 - 8 Cell
+
+```python
+import matplotlib.pyplot as plt
+import pandas as pd
+file_name = pd.read_csv("s_8_cell.deduplicated.bedGraph", delimiter='\t', skiprows=1, header=None)
+plt.figure(figsize=[10, 5])
+plt.title("Гистограмму распределения метилирования цитозинов по хромосоме 8cell", fontsize=15)
+plt.xlabel("Процент метилированных цитозинов")
+plt.ylabel("Частота")
+plt.hist(file_name[3], bins=50, density=True)
+plt.show()
+```
+![alt text](images_plot/8_cell.png)
+
+
+#### №2 SRR3824222 - Epiblast
+```python
+import matplotlib.pyplot as plt
+import pandas as pd
+file_name = pd.read_csv("s_Epiblast.deduplicated.bedGraph", delimiter='\t', skiprows=1, header=None)
+plt.figure(figsize=[10, 5])
+plt.title("Гистограмму распределения метилирования цитозинов по хромосоме Epiblast", fontsize=15)
+plt.xlabel("Процент метилированных цитозинов")
+plt.ylabel("Частота")
+plt.hist(file_name[3], bins=50, density=True)
+plt.show()
+```
+![alt text](images_plot/Epiblast.png)
+
+#### №3 SRR3824222 - ICM
 ```python
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -107,6 +139,15 @@ plt.ylabel("Частота")
 plt.hist(file_name[3], bins=50, density=True)
 plt.show()
 ```
+![alt text](images_plot/ICM.png)
+
+#### ВЫВОДЫ
+
+●	8cell – 8-клеточный эмбрион, примерно 2.25 дня после оплодотворения яйцеклетки
+●	ICM – внутренняя клеточная масса бластоциста, примерно 3.5 дня после оплодотворения яйцеклетки
+●	Epiblast – стадия эпибласта, примерно 6.5 дней после оплодотворения яйцеклетки
+
+
 
 ### Пункт f
 
