@@ -66,7 +66,7 @@ Total count of deduplicated leftover sequences: 6833758 (97.08% of total)
 
 №1 
 
-![alt text](image/b.png)
+![alt text](M-bias Plot/222_Read1.png)
 
 
 ### Пункт e
