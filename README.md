@@ -60,10 +60,26 @@ Total count of deduplicated leftover sequences: 6833758 (97.08% of total)
 Сделано в Google Collab 
 
 ### Пункт d
+Отчеты html находятся в папаке html. 
 
+Ниже разберем M-bias plot.
+
+№1 
+
+![alt text](image/b.png)
 
 
 ### Пункт e
-
+```python
+import matplotlib.pyplot as plt
+import pandas as pd
+file_name = pd.read_csv("s_ICM.deduplicated.bedGraph", delimiter='\t', skiprows=1, header=None)
+plt.figure(figsize=[10, 5])
+plt.title("Гистограмму распределения метилирования цитозинов по хромосоме ICM", fontsize=15)
+plt.xlabel("Процент метилированных цитозинов")
+plt.ylabel("Частота")
+plt.hist(file_name[3], bins=50, density=True)
+plt.show()
+```
 
 ### Пункт f
