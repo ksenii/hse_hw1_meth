@@ -83,16 +83,17 @@ https://www.bioinformatics.babraham.ac.uk/projects/bismark/Bismark_User_Guide.pd
 ![alt text](M-bias_Plot/473_Read1.png)
 ![alt text](M-bias_Plot/473_Read2.png)
 
+#### №2 SRR3824222 - ICM
+## !!!
 
-#### №2 SRR3824222 - Epiblast
+#### №3 SRR3824222 - Epiblast
 На данном образце Read 1 и Read 2 выглядят нормально / стабильно.
 
 ![alt text](M-bias_Plot/222_Read1.png)
 
 ![alt text](M-bias_Plot/222_Read2.png)
 
-#### №3 SRR3824222 - ICM
-## !!!
+
 
 
 ### Пункт e
@@ -112,22 +113,7 @@ plt.show()
 ```
 ![alt text](images_plot/8_cell.png)
 
-
-#### №2 SRR3824222 - Epiblast
-```python
-import matplotlib.pyplot as plt
-import pandas as pd
-file_name = pd.read_csv("s_Epiblast.deduplicated.bedGraph", delimiter='\t', skiprows=1, header=None)
-plt.figure(figsize=[10, 5])
-plt.title("Гистограмму распределения метилирования цитозинов по хромосоме Epiblast", fontsize=15)
-plt.xlabel("Процент метилированных цитозинов")
-plt.ylabel("Частота")
-plt.hist(file_name[3], bins=50, density=True)
-plt.show()
-```
-![alt text](images_plot/Epiblast.png)
-
-#### №3 SRR3824222 - ICM
+#### №2 SRR3824222 - ICM
 ```python
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -141,6 +127,21 @@ plt.show()
 ```
 ![alt text](images_plot/ICM.png)
 
+#### №3 SRR3824222 - Epiblast
+```python
+import matplotlib.pyplot as plt
+import pandas as pd
+file_name = pd.read_csv("s_Epiblast.deduplicated.bedGraph", delimiter='\t', skiprows=1, header=None)
+plt.figure(figsize=[10, 5])
+plt.title("Гистограмму распределения метилирования цитозинов по хромосоме Epiblast", fontsize=15)
+plt.xlabel("Процент метилированных цитозинов")
+plt.ylabel("Частота")
+plt.hist(file_name[3], bins=50, density=True)
+plt.show()
+```
+![alt text](images_plot/Epiblast.png)
+
+
 #### ВЫВОДЫ
 
 ●	8cell – 8-клеточный эмбрион, примерно 2.25 дня после оплодотворения яйцеклетки
@@ -149,9 +150,12 @@ plt.show()
 ![alt text](image/data.png)
 
 Так как 8cell является первой стадией развития эмбриона, то уровень метилирования средний на всём участке.
-Далее идёт ICM, на котором уровень намного ниже чем в 8cell.
-Последняя - Epiblast, в которой уровень метилирования примерно также как и в 8 cell.
+
+Далее идёт ICM, на котором уровень ниже чем в 8cell, а также заметен резкий спад
+
+Последняя - Epiblast, в которой уровень метилирования примерно также как и в 8 cell, а также идет возрастание метилирование.
 
 ### Пункт f
+
 
 
