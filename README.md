@@ -74,19 +74,26 @@ https://www.biostars.org/p/259801/
 
 https://www.bioinformatics.babraham.ac.uk/projects/bismark/Bismark_User_Guide.pdf
 
+
 #### №1 SRR5836473 - 8 Cell
 На данном образце можно отметить, что в Read 1 уровень метилирования практически постоянный, следовательно данные в норме.
 
-Однако, Read 2 имеет некоторые аномалии. 
+Однако, Read 2 имеет некоторые артефакты. Так на конце 3' наблюдается смещение.
 
 ![alt text](M-bias_Plot/473_Read1.png)
 ![alt text](M-bias_Plot/473_Read2.png)
 
+
 #### №2 SRR3824222 - Epiblast
+На данном образце Read 1 и Read 2 выглядят нормально / стабильно.
 
 ![alt text](M-bias_Plot/222_Read1.png)
 
 ![alt text](M-bias_Plot/222_Read2.png)
+
+#### №2 SRR3824222 - ICM
+## !!!
+
 
 ### Пункт e
 ```python
