@@ -8,6 +8,8 @@
 ○	SRR5836475 - ICM
 
 
+Сылка на Google Collab: https://colab.research.google.com/drive/1M4if3EnAGD5LTrbSNl7U73l1czCW0k-Y?hl=ru#scrollTo=b9Pfcq4ZYb_T
+
 Задание #1
 =====================
 
