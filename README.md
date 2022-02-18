@@ -14,8 +14,11 @@
 =====================
 
 
+
+
 Задание #2
 =====================
+
 
 ### Пункт а
 Работа с bam-files с выравниваниями BS-seq ридов на 11-ю хромосому мыши
@@ -56,8 +59,10 @@ Total count of deduplicated leftover sequences: 6833758 (97.08% of total)
 
 .......
 
+
 ### Пункт c
 Сделано в Google Collab 
+
 
 ### Пункт d
 Отчеты html находятся в папаке html. 
@@ -74,26 +79,24 @@ https://www.biostars.org/p/259801/
 
 https://www.bioinformatics.babraham.ac.uk/projects/bismark/Bismark_User_Guide.pdf
 
-
-#### №1 SRR5836473 - 8 Cell
-На данном образце можно отметить, что в Read 1 уровень метилирования практически постоянный, следовательно данные в норме.
+На всех образцах можно отметить, что в Read 1 уровень метилирования практически постоянный, следовательно данные в норме.
 
 Однако, Read 2 имеет некоторые артефакты. Так на конце 3' наблюдается смещение.
+
+#### №1 SRR5836473 - 8 Cell
 
 ![alt text](M-bias_Plot/473_Read1.png)
 ![alt text](M-bias_Plot/473_Read2.png)
 
 #### №2 SRR3824222 - ICM
-## !!!
+
+![alt text](M-bias_Plot/475_Read1.png)
+![alt text](M-bias_Plot/475_Read2.png)
 
 #### №3 SRR3824222 - Epiblast
-На данном образце Read 1 и Read 2 выглядят нормально / стабильно.
 
 ![alt text](M-bias_Plot/222_Read1.png)
-
 ![alt text](M-bias_Plot/222_Read2.png)
-
-
 
 
 ### Пункт e
@@ -156,7 +159,9 @@ plt.show()
 Последняя - Epiblast, в которой уровень метилирования примерно также как и в 8 cell, а также идет возрастание метилирование.
 ![alt text](image/graph.png)
 
-### Пункт f
 
+
+### Пункт f
+![alt text](image/image_cov.png)
 
 
