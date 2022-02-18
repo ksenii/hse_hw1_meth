@@ -13,7 +13,9 @@
 Задание #1
 =====================
 
-![alt text](image/BContent_629.png)
+#### Данные для Fastqc
+![alt text](image/data_475.png)
+![alt text](image/data_629.png)
 
 ### Per Base Sequence Content
 
