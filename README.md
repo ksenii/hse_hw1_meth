@@ -195,10 +195,10 @@ plt.figure(figsize=[10, 5])
 plt.title("Гистограмму распределения метилирования цитозинов по хромосоме 8cell", fontsize=15)
 plt.xlabel("Процент метилированных цитозинов")
 plt.ylabel("Частота")
-plt.hist(file_name[3], bins=50, density=True)
+plt.hist(file_name[3], bins=100, density=True)
 plt.show()
 ```
-![alt text](images_plot/8_cell.png)
+![alt text](images_plot/8Cell.png)
 
 #### №2 SRR3824222 - ICM
 ```python
@@ -209,7 +209,7 @@ plt.figure(figsize=[10, 5])
 plt.title("Гистограмму распределения метилирования цитозинов по хромосоме ICM", fontsize=15)
 plt.xlabel("Процент метилированных цитозинов")
 plt.ylabel("Частота")
-plt.hist(file_name[3], bins=50, density=True)
+plt.hist(file_name[3], bins=100, density=True)
 plt.show()
 ```
 ![alt text](images_plot/ICM.png)
@@ -223,7 +223,7 @@ plt.figure(figsize=[10, 5])
 plt.title("Гистограмму распределения метилирования цитозинов по хромосоме Epiblast", fontsize=15)
 plt.xlabel("Процент метилированных цитозинов")
 plt.ylabel("Частота")
-plt.hist(file_name[3], bins=50, density=True)
+plt.hist(file_name[3], bins=100, density=True)
 plt.show()
 ```
 ![alt text](images_plot/Epiblast.png)
