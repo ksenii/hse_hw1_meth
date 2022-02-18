@@ -120,6 +120,7 @@
 ![alt text](image/b.png)
 
 Скрипт для выполнения дедупликации для всех образцов одновременно:
+
 ! ls SRR5836475_1_bismark_bt2_pe.bam SRR3824222_1_bismark_bt2_pe.bam SRR5836473_1_bismark_bt2_pe.bam | xargs -P 3 -tI{} deduplicate_bismark  --bam  --paired  -o s_{} {}
 #### Результат:
 .......
