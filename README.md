@@ -13,7 +13,10 @@
 Задание #1
 =====================
 
-#### Per Base Sequence Content
+### Per Base Sequence Content
+
+Ссылка:https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/4%20Per%20Base%20Sequence%20Content.html
+
 
 Данные SRR5836475
 ![alt text](fastq_images/BContent_475.png)
@@ -21,7 +24,9 @@
 Данные SRR3414629
 ![alt text](fastq_images/BContent_629.png)
 
-#### Per Sequence GC Content
+### Per Sequence GC Content
+
+Ссылка:https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/5%20Per%20Sequence%20GC%20Content.html
 
 Данные SRR5836475
 ![alt text](fastq_images/GC_475.png)
@@ -29,7 +34,9 @@
 Данные SRR3414629
 ![alt text](fastq_images/GC_629.png)
 
-#### Sequence Length Distribution
+### Sequence Length Distribution
+
+Ссылка:https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/7%20Sequence%20Length%20Distribution.html
 
 Данные SRR5836475
 ![alt text](fastq_images/Length_475.png)
@@ -37,7 +44,9 @@
 Данные SRR3414629
 ![alt text](fastq_images/Lenght_629.png)
 
-#### Duplicate Sequences
+### Duplicate Sequences
+
+Ссылка:https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/8%20Duplicate%20Sequences.html
 
 Данные SRR5836475
 ![alt text](fastq_images/Duplication_475.png)
