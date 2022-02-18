@@ -15,8 +15,17 @@
 
 ### Per Base Sequence Content
 
-Ссылка:https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/4%20Per%20Base%20Sequence%20Content.html
+График показывает количество каждого основания в геноме. При отсутствии артефактов линии практически параллельны и стабильны. 
 
+#### Предупреждение
+
+Этот модуль выдаёт предупреждение, если разница между A и T или G и C превышает 10% в любом положении.
+
+#### Ошибка
+
+Этот модуль выдаёт ошибку, если разница между A и T или G и C превышает 20% в любом положении.
+
+Ссылка:https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/4%20Per%20Base%20Sequence%20Content.html
 
 Данные SRR5836475
 ![alt text](fastq_images/BContent_475.png)
