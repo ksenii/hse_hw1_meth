@@ -13,7 +13,37 @@
 Задание #1
 =====================
 
+#### Per Base Sequence Content
 
+Данные SRR5836475
+![alt text](fastq_images/BContent_475.png)
+
+Данные SRR3414629
+![alt text](fastq_images/BContent_629.png)
+
+#### Per Sequence GC Content
+
+Данные SRR5836475
+![alt text](fastq_images/GC_475.png)
+
+Данные SRR3414629
+![alt text](fastq_images/GC_629.png)
+
+#### Sequence Length Distribution
+
+Данные SRR5836475
+![alt text](fastq_images/Length_475.png)
+
+Данные SRR3414629
+![alt text](fastq_images/Lenght_629.png)
+
+#### Duplicate Sequences
+
+Данные SRR5836475
+![alt text](fastq_images/Duplication_475.png)
+
+Данные SRR3414629
+![alt text](fastq_images/Duplication_629.png)
 
 
 Задание #2
